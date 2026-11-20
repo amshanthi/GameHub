@@ -28,7 +28,7 @@ const Home = () => {
                   {console.log("get image path", `/images/${game.image}`)}
 
                   <img
-                    src={`/images/ColorfulJigsawPuzzle.png`}
+                    src={`/images/${game.image}`}
                     alt={game.title}
                     className="w-full h-full object-contain rounded-xl"
                   />
