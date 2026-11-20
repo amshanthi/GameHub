@@ -1,8 +1,6 @@
 import React from "react";
 import games from "./../../data/games";
 const Home = () => {
-  const imageUrl = "/images/ColorfulJigsawPuzzle.png";
-
   return (
     <section
       id="home"
