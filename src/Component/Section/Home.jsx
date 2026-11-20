@@ -22,9 +22,11 @@ const Home = () => {
                 </h2>
 
                 <div className="w-full aspect-square overflow-hidden rounded-xl  flex items-center justify-center">
-                  {console.log(`/public/images/${game.image}`)}
+                  {console.log(
+                    `/public/images/${game.image}.replace(/ /g, "%20")`,
+                  )}
                   <img
-                    src={`/public/images/${game.image}`}
+                    src={`/public/images/${game.image.replace(/ /g, "%20")}`}
                     alt={game.title}
                     className="w-full h-full object-contain rounded-xl"
                   />
