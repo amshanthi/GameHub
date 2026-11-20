@@ -22,13 +22,10 @@ const Home = () => {
                 </h2>
 
                 <div className="w-full aspect-square overflow-hidden rounded-xl  flex items-center justify-center">
-                  {console.log(
-                    "get image path",
-                    `${import.meta.env.BASE_URL}images/${game.image}`,
-                  )}
+                  {console.log("get image path", `/images/${game.image}`)}
 
                   <img
-                    src={`${import.meta.env.BASE_URL}images/${game.image}`}
+                    src={`/images/${game.image}`}
                     alt={game.title}
                     className="w-full h-full object-contain rounded-xl"
                   />
