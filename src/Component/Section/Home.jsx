@@ -1,6 +1,8 @@
 import React from "react";
 import games from "./../../data/games";
 const Home = () => {
+  const imageUrl = "/images/ColorfulJigsawPuzzle.png";
+
   return (
     <section
       id="home"
@@ -26,7 +28,7 @@ const Home = () => {
                   {console.log("get image path", `/images/${game.image}`)}
 
                   <img
-                    src={`/images/${game.image}`}
+                    src={`/images/ColorfulJigsawPuzzle.png`}
                     alt={game.title}
                     className="w-full h-full object-contain rounded-xl"
                   />
