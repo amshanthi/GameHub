@@ -1,11 +1,12 @@
 import React from "react";
-import games from "/lib/games";
+import games from "./../../data/games";
 const Home = () => {
   return (
     <section
       id="home"
       className="min-h-screen bg-[#0B1120] px-6 py-8 text-white"
     >
+      {console.log("games data", games)}
       <div className="mx-auto max-w-7xl">
         <h1 className="mb-10 text-center text-3xl font-bold sm:text-4xl">
           My Games
