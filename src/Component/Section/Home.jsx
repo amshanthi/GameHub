@@ -23,7 +23,7 @@ const Home = () => {
 
                 <div className="w-full aspect-square overflow-hidden rounded-xl  flex items-center justify-center">
                   <img
-                    src={`/src/Component/Assets/${game.image}`}
+                    src={`public/images/${game.image}`}
                     alt={game.title}
                     className="w-full h-full object-contain rounded-xl"
                   />
