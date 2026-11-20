@@ -1,5 +1,5 @@
 import React from "react";
-import games from "../../assets/games";
+import games from "/lib/games";
 const Home = () => {
   return (
     <section
