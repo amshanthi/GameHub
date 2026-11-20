@@ -23,10 +23,12 @@ const Home = () => {
 
                 <div className="w-full aspect-square overflow-hidden rounded-xl  flex items-center justify-center">
                   {console.log(
-                    `/public/images/${game.image.replace(" ", "")}")`,
+                    "get image path",
+                    `${import.meta.env.BASE_URL}images/${game.image}`,
                   )}
+
                   <img
-                    src={`/public/images/${game.image}`}
+                    src={`${import.meta.env.BASE_URL}images/${game.image}`}
                     alt={game.title}
                     className="w-full h-full object-contain rounded-xl"
                   />
